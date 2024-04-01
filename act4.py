@@ -5,6 +5,7 @@ def func1(a, b):
 
 def func2(a, b):
     c = func1(a, b)
+    print(f"c: {c}")
     return a - b, a, b, c
 
 
